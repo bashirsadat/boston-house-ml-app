@@ -5,7 +5,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
-image = Image.open('logo.jpg')
+image = Image.open('logo.png')
 cola, colb, colc = st.columns([3,6,1])
 with cola:
     st.write("")
